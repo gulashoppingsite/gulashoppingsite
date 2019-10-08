@@ -3,9 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbarComponent } from './navbar/navbar.component';
-import { SubnavbarComponent } from './subnavbar/subnavbar.component';
-import { SidebarComponent } from './sidebar/sidebar.component';
+import { NavbarComponent } from './components/home/navbarfolder/navbar/navbar.component';
+import { SubnavbarComponent } from './components/home/subnavbarfolder/subnavbar/subnavbar.component';
+import { SidebarComponent } from './components/home/sidebarfolder/sidebar/sidebar.component';
 
 @NgModule({
   declarations: [
