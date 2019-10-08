@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/home/navbarfolder/navbar/navbar.component';
 import { SubnavbarComponent } from './components/home/subnavbarfolder/subnavbar/subnavbar.component';
 import { SidebarComponent } from './components/home/sidebarfolder/sidebar/sidebar.component';
+import { CentreComponent } from './components/home/centrefolder/centre/centre.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     SubnavbarComponent,
-    SidebarComponent
+    SidebarComponent,
+    CentreComponent
   ],
   imports: [
     BrowserModule,
@@ -21,4 +23,4 @@ import { SidebarComponent } from './components/home/sidebarfolder/sidebar/sideba
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
