@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/home/navbarfolder/navbar/navbar.co
 import { SubnavbarComponent } from './components/home/subnavbarfolder/subnavbar/subnavbar.component';
 import { SidebarComponent } from './components/home/sidebarfolder/sidebar/sidebar.component';
 import { CentreComponent } from './components/home/centrefolder/centre/centre.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { CentreComponent } from './components/home/centrefolder/centre/centre.co
     NavbarComponent,
     SubnavbarComponent,
     SidebarComponent,
-    CentreComponent
+    CentreComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
