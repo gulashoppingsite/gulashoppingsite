@@ -7,7 +7,8 @@ import { NavbarComponent } from './components/home/navbarfolder/navbar/navbar.co
 import { SubnavbarComponent } from './components/home/subnavbarfolder/subnavbar/subnavbar.component';
 import { SidebarComponent } from './components/home/sidebarfolder/sidebar/sidebar.component';
 import { CentreComponent } from './components/home/centrefolder/centre/centre.component';
-import { AboutComponent } from './about/about.component';
+import { AboutComponent } from './components/home/centrefolder/centre/about/about.component';
+
 
 @NgModule({
   declarations: [
